@@ -1,0 +1,175 @@
+body,
+.top,
+.second,
+.image-subtext
+.third,
+.fourth-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.first,
+.images-second,
+.fourth,
+.links{
+    display: flex;
+}
+
+.second-header{
+    text-align: center;
+}
+
+.image-subtext p{
+    text-align: center;
+    width: 180px;
+}
+
+.images-second{
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.sq{
+    height: 200px;
+    border-radius: 10px;
+    border: solid blue 2px;
+    width: 200px;
+}
+
+.links{
+    gap: 15px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+.top,
+.footer{
+    background-color: #1F2937;
+}
+
+.placeholder{
+    text-align: center;
+    color: #F9FAF8;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
+
+.placeholder p{
+    margin: 90px 0 0 0;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.header{
+    gap: 450px;
+}
+
+.first{
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.top{
+    align-items: center;
+}
+
+.first-header{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first-header-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.first-button{
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+
+.second-header{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.third{
+    background-color: #E5E7EB;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote{
+    margin-top: 200px;
+    margin-bottom: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    flex-basis: 200px;
+}
+
+.fourth{
+    background-color: #3882f6;
+    color: #1F2937;
+    border-radius: 5px;
+}
+
+.author{
+    padding-left: 150px;
+}
+
+.fourth-header{
+    font-size: 18px;
+    margin: 40px 0 0 0;
+}
+
+.fourth-subtext{
+    margin: 0 0 40px 0;
+}
+
+.fourth{
+    justify-content: center;
+    align-items: center;
+    padding: 5px 13px;
+}
+
+.fourth-text{
+    text-align: center;
+    
+}
+.fourth-button{
+    align-self: center;
+    padding: 5px 25px 5 px 25px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
